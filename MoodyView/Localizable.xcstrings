@@ -1,0 +1,121 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "" : {
+
+    },
+    "%@" : {
+
+    },
+    "%lldh" : {
+
+    },
+    "%lldm" : {
+
+    },
+    "%llds" : {
+
+    },
+    "Add Mode" : {
+
+    },
+    "App Theme" : {
+
+    },
+    "Auto Wallpaper Change Interval" : {
+
+    },
+    "Back to Menu" : {
+
+    },
+    "Cancel" : {
+
+    },
+    "Confirm" : {
+
+    },
+    "Dark" : {
+
+    },
+    "Delete" : {
+
+    },
+    "Developed by 도연" : {
+
+    },
+    "edit" : {
+
+    },
+    "Enable Mode" : {
+
+    },
+    "Light" : {
+
+    },
+    "Mode Icon" : {
+
+    },
+    "Mode Name" : {
+
+    },
+    "New Mode Name" : {
+
+    },
+    "No Auto Chnage Interval If one image" : {
+
+    },
+    "No Images" : {
+
+    },
+    "Open Menu" : {
+
+    },
+    "Original Wallpaper" : {
+
+    },
+    "Quit" : {
+
+    },
+    "Reset All Settings" : {
+
+    },
+    "Selecr Mode Or Add New Mode" : {
+
+    },
+    "Select Mode" : {
+
+    },
+    "Select Wallpaper Image" : {
+
+    },
+    "Send Feedback" : {
+
+    },
+    "Settings" : {
+
+    },
+    "System" : {
+
+    },
+    "Theme" : {
+
+    },
+    "Version %@" : {
+
+    },
+    "Wallpaper Change Interval: %lldh %lldm %llds" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Wallpaper Change Interval: %1$lldh %2$lldm %3$llds"
+          }
+        }
+      }
+    },
+    "Wallpaper Image" : {
+
+    }
+  },
+  "version" : "1.0"
+}
