@@ -24,15 +24,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5A7809872E95619600C08478 /* MoodyView Pro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MoodyView Pro.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5A7809952E95619700C08478 /* MoodyView ProTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MoodyView ProTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5A78099F2E95619700C08478 /* MoodyView ProUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MoodyView ProUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A7809872E95619600C08478 /* MoodyView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoodyView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A7809952E95619700C08478 /* MoodyViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoodyViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A78099F2E95619700C08478 /* MoodyViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoodyViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		5A7809892E95619600C08478 /* MoodyView Pro */ = {
+		5A7809892E95619600C08478 /* MoodyView */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "MoodyView Pro";
+			path = MoodyView;
 			sourceTree = "<group>";
 		};
 		5A7809982E95619700C08478 /* MoodyView ProTests */ = {
@@ -75,7 +75,7 @@
 		5A78097E2E95619600C08478 = {
 			isa = PBXGroup;
 			children = (
-				5A7809892E95619600C08478 /* MoodyView Pro */,
+				5A7809892E95619600C08478 /* MoodyView */,
 				5A7809982E95619700C08478 /* MoodyView ProTests */,
 				5A7809A22E95619700C08478 /* MoodyView ProUITests */,
 				5A7809882E95619600C08478 /* Products */,
@@ -85,9 +85,9 @@
 		5A7809882E95619600C08478 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5A7809872E95619600C08478 /* MoodyView Pro.app */,
-				5A7809952E95619700C08478 /* MoodyView ProTests.xctest */,
-				5A78099F2E95619700C08478 /* MoodyView ProUITests.xctest */,
+				5A7809872E95619600C08478 /* MoodyView.app */,
+				5A7809952E95619700C08478 /* MoodyViewTests.xctest */,
+				5A78099F2E95619700C08478 /* MoodyViewUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,9 +95,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5A7809862E95619600C08478 /* MoodyView Pro */ = {
+		5A7809862E95619600C08478 /* MoodyView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5A7809A92E95619700C08478 /* Build configuration list for PBXNativeTarget "MoodyView Pro" */;
+			buildConfigurationList = 5A7809A92E95619700C08478 /* Build configuration list for PBXNativeTarget "MoodyView" */;
 			buildPhases = (
 				5A7809832E95619600C08478 /* Sources */,
 				5A7809842E95619600C08478 /* Frameworks */,
@@ -108,18 +108,18 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				5A7809892E95619600C08478 /* MoodyView Pro */,
+				5A7809892E95619600C08478 /* MoodyView */,
 			);
-			name = "MoodyView Pro";
+			name = MoodyView;
 			packageProductDependencies = (
 			);
 			productName = "MoodyView Pro";
-			productReference = 5A7809872E95619600C08478 /* MoodyView Pro.app */;
+			productReference = 5A7809872E95619600C08478 /* MoodyView.app */;
 			productType = "com.apple.product-type.application";
 		};
-		5A7809942E95619700C08478 /* MoodyView ProTests */ = {
+		5A7809942E95619700C08478 /* MoodyViewTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5A7809AC2E95619700C08478 /* Build configuration list for PBXNativeTarget "MoodyView ProTests" */;
+			buildConfigurationList = 5A7809AC2E95619700C08478 /* Build configuration list for PBXNativeTarget "MoodyViewTests" */;
 			buildPhases = (
 				5A7809912E95619700C08478 /* Sources */,
 				5A7809922E95619700C08478 /* Frameworks */,
@@ -133,16 +133,16 @@
 			fileSystemSynchronizedGroups = (
 				5A7809982E95619700C08478 /* MoodyView ProTests */,
 			);
-			name = "MoodyView ProTests";
+			name = MoodyViewTests;
 			packageProductDependencies = (
 			);
 			productName = "MoodyView ProTests";
-			productReference = 5A7809952E95619700C08478 /* MoodyView ProTests.xctest */;
+			productReference = 5A7809952E95619700C08478 /* MoodyViewTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		5A78099E2E95619700C08478 /* MoodyView ProUITests */ = {
+		5A78099E2E95619700C08478 /* MoodyViewUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5A7809AF2E95619700C08478 /* Build configuration list for PBXNativeTarget "MoodyView ProUITests" */;
+			buildConfigurationList = 5A7809AF2E95619700C08478 /* Build configuration list for PBXNativeTarget "MoodyViewUITests" */;
 			buildPhases = (
 				5A78099B2E95619700C08478 /* Sources */,
 				5A78099C2E95619700C08478 /* Frameworks */,
@@ -156,11 +156,11 @@
 			fileSystemSynchronizedGroups = (
 				5A7809A22E95619700C08478 /* MoodyView ProUITests */,
 			);
-			name = "MoodyView ProUITests";
+			name = MoodyViewUITests;
 			packageProductDependencies = (
 			);
 			productName = "MoodyView ProUITests";
-			productReference = 5A78099F2E95619700C08478 /* MoodyView ProUITests.xctest */;
+			productReference = 5A78099F2E95619700C08478 /* MoodyViewUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -186,7 +186,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5A7809822E95619600C08478 /* Build configuration list for PBXProject "MoodyView Pro" */;
+			buildConfigurationList = 5A7809822E95619600C08478 /* Build configuration list for PBXProject "MoodyView" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -200,9 +200,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5A7809862E95619600C08478 /* MoodyView Pro */,
-				5A7809942E95619700C08478 /* MoodyView ProTests */,
-				5A78099E2E95619700C08478 /* MoodyView ProUITests */,
+				5A7809862E95619600C08478 /* MoodyView */,
+				5A7809942E95619700C08478 /* MoodyViewTests */,
+				5A78099E2E95619700C08478 /* MoodyViewUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -258,12 +258,12 @@
 /* Begin PBXTargetDependency section */
 		5A7809972E95619700C08478 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5A7809862E95619600C08478 /* MoodyView Pro */;
+			target = 5A7809862E95619600C08478 /* MoodyView */;
 			targetProxy = 5A7809962E95619700C08478 /* PBXContainerItemProxy */;
 		};
 		5A7809A12E95619700C08478 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5A7809862E95619600C08478 /* MoodyView Pro */;
+			target = 5A7809862E95619600C08478 /* MoodyView */;
 			targetProxy = 5A7809A02E95619700C08478 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -394,7 +394,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "MoodyView Pro/MoodyView_Pro.entitlements";
+				CODE_SIGN_ENTITLEMENTS = MoodyView/MoodyView.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -407,7 +408,8 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				MARKETING_VERSION = 1.0.2;
 				PRODUCT_BUNDLE_IDENTIFIER = "doyeon.MoodyView-Pro";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
@@ -421,7 +423,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "MoodyView Pro/MoodyView_Pro.entitlements";
+				CODE_SIGN_ENTITLEMENTS = MoodyView/MoodyView.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -434,7 +437,8 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				MARKETING_VERSION = 1.0.2;
 				PRODUCT_BUNDLE_IDENTIFIER = "doyeon.MoodyView-Pro";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
@@ -457,7 +461,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MoodyView Pro.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MoodyView Pro";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MoodyView.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MoodyView";
 			};
 			name = Debug;
 		};
@@ -475,7 +479,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MoodyView Pro.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MoodyView Pro";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MoodyView.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MoodyView";
 			};
 			name = Release;
 		};
@@ -514,7 +518,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5A7809822E95619600C08478 /* Build configuration list for PBXProject "MoodyView Pro" */ = {
+		5A7809822E95619600C08478 /* Build configuration list for PBXProject "MoodyView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5A7809A72E95619700C08478 /* Debug */,
@@ -523,7 +527,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5A7809A92E95619700C08478 /* Build configuration list for PBXNativeTarget "MoodyView Pro" */ = {
+		5A7809A92E95619700C08478 /* Build configuration list for PBXNativeTarget "MoodyView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5A7809AA2E95619700C08478 /* Debug */,
@@ -532,7 +536,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5A7809AC2E95619700C08478 /* Build configuration list for PBXNativeTarget "MoodyView ProTests" */ = {
+		5A7809AC2E95619700C08478 /* Build configuration list for PBXNativeTarget "MoodyViewTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5A7809AD2E95619700C08478 /* Debug */,
@@ -541,7 +545,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5A7809AF2E95619700C08478 /* Build configuration list for PBXNativeTarget "MoodyView ProUITests" */ = {
+		5A7809AF2E95619700C08478 /* Build configuration list for PBXNativeTarget "MoodyViewUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5A7809B02E95619700C08478 /* Debug */,
